@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+.resister {
+  width: 96%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.section1_top {
+  width: 48%;
+  background-color: #605bff;
+  height: 1024px;
+  display: flex;
+  position: absolute;
+}
+.section1_top > div > div:nth-child(1) {
+  width: 100.15px;
+  height: 80.15px;
+}
+.section1_top img {
+  padding: 55px 0px 0px 60px;
+}
+.section1_top > div > div:nth-child(2) {
+  margin: 328px 319px 359px 197px;
+  width: 205px;
+}
+.base {
+  font-family: Montserrat;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 88px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+.section1_botton {
+  margin-left: 90px;
+  width: 299px;
+  margin-bottom: 67px;
+}
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 100px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 1024px solid #f8faff;
+  position: relative;
+  left: -12.5%;
+}
+@media screen and (max-width: 1400px) {
+  .triangle {
+    display: none;
+  }
+}
+
+.section2_top {
+  padding-left: 94px;
+  padding-top: 236px;
+  background-color: #f8faff;
+  height: 1024px;
+}
+.section2_top > div:nth-child(1) > h1 {
+  font: Montserrat;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43.88px;
+}
+.section2_top > div:nth-child(1) > p {
+  font-family: Lato;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 6px;
+}
+.auth {
+  display: flex;
+  gap: 24px;
+}
+.auth {
+  display: flex;
+  gap: 28px;
+  margin-top: 29px;
+  margin-bottom: 28px;
+}
+.google {
+  display: flex;
+  width: 197.6px;
+  border-radius: 8px;
+  background-color: white;
+  padding: 9px 2px 9px 12px;
+  cursor: pointer;
+}
+.google > div:nth-child(2) {
+  margin-top: -5px;
+  margin-left: 6px;
+  font-weight: 100;
+}
+.part {
+  width: 70%;
+  margin: auto;
+  margin-top: 15px;
+}
+.part span {
+  color: #605bff;
+}
+.form {
+  width: 76%;
+}
+.topp {
+  width: 90%;
+  display: flex;
+  gap: 10px;
+  background-color: #605bff;
+  margin-left: 5%;
+}
+.topp > span {
+  margin-top: 13px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 1100px) {
+  .section1_top > div > div:nth-child(2) {
+    width: auto;
+    margin: 85% 1% 43% 25%;
+  }
+  .auth {
+    width: 100%;
+    gap: 10px;
+  }
+  .section1_botton {
+    margin-left: 13%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .section1_top {
+    width: 43%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .section1_top > div > div:nth-child(2) {
+    margin: 85% 1% 43% 13%;
+  }
+  .section1_botton {
+    margin-left: -10px;
+  }
+  .section1_top {
+    width: 37%;
+  }
+}
+.media {
+  margin-top: 40px;
+}
+@media screen and (min-width: 800px) {
+  .media {
+    display: none;
+  }
+  .topp {
+    display: none;
+  }
+}
+@media screen and (max-width: 800px) {
+  .section1_top {
+    display: none;
+  }
+  .topp img {
+    width: 13%;
+  }
+  .topp > span {
+    margin-top: 10px;
+  }
+  .topp {
+    padding: 15px 8px;
+  }
+  .section2_top {
+    padding: 26px;
+    height: 100%;
+  }
+  .section2_top {
+    width: 90%;
+    margin: auto;
+  }
+  .resister {
+    width: 72%;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 650px) {
+  .resister {
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topp {
+    width: 94%;
+    margin-left: 0%;
+  }
+  .resister {
+    width: 86%;
+    margin: auto;
+  }
+  .section2_top {
+    padding: 26px;
+    width: 94%;
+    margin: 0%;
+  }
+  .auth {
+    width: 100%;
+  }
+  .form {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .topp {
+    width: 86%;
+  }
+  .section2_top {
+    width: 86%;
+  }
+  .google {
+    padding: 9px 2px 9px 5px;
+    height: 36px;
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .topp {
+    width: 76%;
+  }
+  .section2_top {
+    width: 76%;
+  }
+  .google {
+    padding: 9px 2px 9px 5px;
+    height: 36px;
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .topp {
+    width: 66%;
+  }
+  .section2_top {
+    width: 66%;
+  }
+  .google {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .section2_top {
+    width: 66%;
+  }
+}
